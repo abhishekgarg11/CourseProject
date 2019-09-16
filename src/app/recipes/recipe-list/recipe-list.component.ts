@@ -9,6 +9,8 @@ import{Recipe} from '../recipe.model'
 })
 export class RecipeListComponent implements OnInit {
   recipes:Recipe[] = [
+new Recipe('A Test Recipe','This is a Test Description','https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2019/08/old-delhi-style-butter-chicken.jpg'),
+
 new Recipe('A Test Recipe','This is a Test Description','https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2019/08/old-delhi-style-butter-chicken.jpg')
 
   ];
